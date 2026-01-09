@@ -1,0 +1,12 @@
+l6       =    10                    ! output file
+rmax,r0  =    20.000     1.200      ! Box-Radius and r0
+xstep    =     0.100                ! Step-size
+maxi     =   500                    ! maximal number of iterations
+xmix     =     0.300                ! mixing parameter
+inin     =     1                    ! initialization of wavefunctions
+Pb 208 126  82                      ! calculated nuclei
+ECUT     =     5.000     5.000      ! Cuttoff over single-particle energies
+lambda   =    -7.000    -8.000      ! chemical potential
+Blocks	 =   0   0   0   0          ! kappa_n, kappa_p, n_n, n_p
+Pair     =   1   1                  ! pairing choice: 1 -->no; 2~3 --> delta; 4 --> Gogny
+Gogny    =     1.000                ! factor for gogny force
